@@ -18,7 +18,7 @@ public class CeilingFan {
 		currentSpeed = SPEED3_OFF;
 		
 	}
-    //If speed reaches to the maximum level, fan will be turned off until then it increases it's speed.
+        //If speed reaches to the maximum level, fan will be turned off until then it increases it's speed.
 	public void riseSpeed() {
 		if(currentSpeed == HIGHEST_SPEED_LEVEL) {
 			currentSpeed = SPEED3_OFF;
@@ -33,7 +33,7 @@ public class CeilingFan {
 		reverseDirection = true;
 	}
 
-    //getter to read the current speed level
+        //getter to read the current speed level
 	public int getCurrentSpeed() {
 		return currentSpeed;
 	}
